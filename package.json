@@ -1,0 +1,20 @@
+{
+  "name": "documents-builder",
+  "version": "1.0.0",
+  "description": "A documentation compilator using JavaScript and plugins",
+  "main": "scripts/compile.js",
+  "scripts": {
+    "build": "node scripts/compile.js",
+    "build:test": "node scripts/compile.js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oucharski/documents-builder.git"
+  },
+  "author": "Felipe Oucharski <felipe.oucharski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oucharski/documents-builder/issues"
+  },
+  "homepage": "https://github.com/oucharski/documents-builder#readme"
+}
